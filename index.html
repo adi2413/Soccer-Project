@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FOOTBALL NATION</title>
+	<style>
+      .slider {
+        width: 500px;
+        height: 300px;
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .slider1 {
+        width: 500px;
+        height: 300px;
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .slider2 {
+        width: 500px;
+        height: 300px;
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .slider3 {
+        width: 500px;
+        height: 300px;
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .slider4 {
+        width: 500px;
+        height: 300px;
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+
+      .image-container {
+        width: 1500px;
+        background-color: pink;
+        height: 300px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .image-container1 {
+        width: 1500px;
+        background-color: pink;
+        height: 300px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .image-container2 {
+        width: 1500px;
+        background-color: pink;
+        height: 300px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .image-container3 {
+        width: 1500px;
+        background-color: pink;
+        height: 300px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .image-container4 {
+        width: 1500px;
+        background-color: pink;
+        height: 300px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      .slide1 {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      .slide2 {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      .slide3 {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      .slide4 {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+       #slide-11:target ~ .image-container1 {
+        left: 0px;
+      }
+      #slide-111:target ~ .image-container2 {
+        left: 0px;
+      }
+      #slide-1111:target ~ .image-container3 {
+        left: 0px;
+      }
+      #slide-11111:target ~ .image-container4 {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -500px;
+      }
+       #slide-22:target ~ .image-container1 {
+        left: -500px;
+      }
+      #slide-222:target ~ .image-container2 {
+        left: -500px;
+      }
+      #slide-2222:target ~ .image-container3 {
+        left: -500px;
+      }
+       #slide-22222:target ~ .image-container4 {
+        left: -500px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1000px;
+      }
+       #slide-33:target ~ .image-container1 {
+        left: -1000px;
+      }
+      #slide-333:target ~ .image-container2 {
+        left: -1000px;
+      }
+      #slide-3333:target ~ .image-container3 {
+        left: -1000px;
+      }
+      #slide-33333:target ~ .image-container4 {
+        left: -1000px;
+      }
+      .buttons {
+        position: relative;
+        top: -20px;
+      }
+       .buttons1 {
+        position: relative;
+        top: -20px;
+      }
+      .buttons2 {
+        position: relative;
+        top: -20px;
+      }
+      .buttons3 {
+        position: relative;
+        top: -20px;
+      }
+      .buttons4 {
+        position: relative;
+        top: -20px;
+      }
+      .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: red;
+      }
+      .buttons1 a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: blue;
+      }
+      .buttons2 a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: orange;
+      }
+      .buttons3 a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: pink;
+      }
+      .buttons4 a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: pink;
+      }
+        .stats 
+        {
+             background-color: white;
+        }
+      table,th,td
+      {
+      	border: 1px solid black;
+      }
+      .tab
+      {
+      	background-color: grey;align-self: center;
+      }
+      .lewa
+      {
+      	background-color: red;height: 50px;
+      }
+      .messi
+      {
+      	background-color: blue;height: 50px;
+      }
+      .bruy
+      {
+      	background-color: orange;height: 50px;
+      }
+      .ronaldo
+      {
+      	background-color: pink;height:50px;
+      }
+      .romelu
+      {
+      	background-color: purple;height: 50px;
+      }
+      
+      
+    </style>
+	
+</head>
+  <body style="background-color: black"> 
+
+  <center><h1><em> <p style="color: green;text-decoration: underline;font-size: 35px;align-self: center;">TOP 5 ACTIVE FOOTBALLERS AND THEIR STATISTICS:</p></em></h1></center>
+  <br>
+  <br>
+  <div class="stats">
+  <center><h2><p style="color:green;font-size: 30px "><span>&#183;</span>LET'S GET INTO IT:</h2></p></center>
+  </div>
+  <p style="padding-left: 35px;color: gold;font-size: 20px">These players were choosen based on their statistics and work rate in the year 2020-2021</p></h2>
+  <br>
+  <br> 
+  <div class="lewa">
+  <p style="padding-left: 45px;color:white;font-size: 20px;padding-top: 15px">1. ROBERT LEWANDOWSKI:</p>
+  </div>
+  <br>
+  <br>
+  <div class="slider">
+      <span id="slide-1"></span>
+      <span id="slide-2"></span>
+      <span id="slide-3"></span>
+      <div class="image-container">
+        <img src="./images/RL2.jpg" class="slide" width="500" height="300" />
+        <img src="./images/RL.webp" class="slide" width="500" height="300" />
+        <img src="./images/RL4.jpeg" class="slide" width="500" height="300" />
+      </div>
+      <div class="buttons">
+        <a href="#slide-1"></a>
+        <a href="#slide-2"></a>
+        <a href="#slide-3"></a>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <p style="color: white;padding-left:65px;align-self: center;padding-right: 55px;font-size: 20px ">Robert Lewandowski is a Polish professional footballer who plays as a striker for Bundesliga club Bayern Munich and is the captain of the Poland national team. Recognized for his positioning, technique and finishing, Lewandowski is considered one of the best strikers of all time, as well as one of the most successful players in Bundesliga history.He has scored over 500 senior career goals for club and country. To know more detailed biography about Lewandowski click <a href="https://en.wikipedia.org/wiki/Robert_Lewandowski">here</a></p>
+
+    <p style="color: red;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>NATIONALITY: POLISH</b>
+    <p style="color: red;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>CURRENT TEAM: POLAND NATIONAl TEAM AND FC BAYERN MUNICH</b></p>	
+    <p style="color: red;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>AGE: 32</b>
+    <p style="color: red;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>JERSEY NUMBER: 9</b>
+    <br>
+    <br>
+        <div class="stats">
+        
+
+    	<p style="color:black;align-self: center;font-size: 18px;padding-left: 590px"><b> STATS:</b></p>
+
+
+        </div>
+        <div class="stats">
+        <center><h3 style="color: red"> <b>FOR POLAND:</b></h3></center>
+        </div>
+        <h4 style="padding-left: 150px;color: yellow"><b>UEFA EURO:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>3</td>
+        		<td>3</td>
+        		<td>0</td>
+        		<td>1</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <br>
+       <br>
+       <br>
+       <br>
+        <h4 style="padding-left: 150px;color: yellow"><b>WORLD CUP QUALIFIERS:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>2</td>
+        		<td>3</td>
+        		<td>0</td>
+        		<td>0</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <br>
+       <br>
+       <br>
+       <br>
+       <div class="stats">
+        <center><h3 style="color: red"> <b>FOR BAYERN MUNICH:</b></h3></center>
+        </div>
+        <h4 style="padding-left: 150px;color: yellow"><b>BUNDESLIGA:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>29</td>
+        		<td>41</td>
+        		<td>7</td>
+        		<td>4</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <h4 style="padding-left: 150px;color: yellow"><b>UEFA CHAMPIONS LEAGUE:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>6</td>
+        		<td>5</td>
+        		<td>0</td>
+        		<td>0</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <h4 style="padding-left: 150px;color: yellow"><b>CLUB WORLD CUP:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>2</td>
+        		<td>2</td>
+        		<td>1</td>
+        		<td>0</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <h4 style="padding-left: 150px;color: yellow"><b>DFB-POKAL:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>1</td>
+        		<td>0</td>
+        		<td>0</td>
+        		<td>0</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <br>
+       <br>
+       <br>
+       <br>
+       <div class="messi">
+  <p style="padding-left: 45px;color:white;font-size: 20px;padding-top: 15px">2. LIONEL MESSI:</p>
+  </div>
+  <br>
+  <br>
+  <div class="slider1">
+      <span id="slide-11"></span>
+      <span id="slide-22"></span>
+      <span id="slide-33"></span>
+      <div class="image-container1">
+        <img src="./images/messi1.jpg" class="slide1" width="500" height="300" />
+        <img src="./images/messi2.jpg" class="slide1" width="500" height="300" />
+        <img src="./images/messi3.jpg" class="slide1" width="500" height="300" />
+      </div>
+      <div class="buttons1">
+        <a href="#slide-11"></a>
+        <a href="#slide-22"></a>
+        <a href="#slide-33"></a>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <p style="color: white;padding-left:65px;align-self: center;padding-right: 55px;font-size: 20px ">Lionel Messi is an Argentine professional footballer who plays as a forward and captains the Argentina national team. He is currently a free agent, having played all his professional career for La Liga club Barcelona, whom he captained from 2018 to 2021. Often considered the best player in the world and widely regarded as one of the greatest players of all time. To get a detailed information about Meessi's life click <a href="https://en.wikipedia.org/wiki/Lionel_Messi">here</a></p>
+
+    <p style="color: blue;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>NATIONALITY: ARGENTINE</b>
+    <p style="color: blue;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>CURRENT TEAM: ARGENTINA FOOTBALL TEAM AND FC BARCELONA</b></p>	
+    <p style="color: blue;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>AGE: 34</b>
+    <p style="color: blue;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>JERSEY NUMBER: 10</b>
+    <br>
+    <br>
+        <div class="stats">
+        
+
+    	<p style="color:black;align-self: center;font-size: 18px;padding-left: 590px"><b> STATS:</b></p>
+
+
+        </div>
+        <div class="stats">
+        <center><h3 style="color: red"> <b>FOR ARGENTINA:</b></h3></center>
+        </div>
+        <h4 style="padding-left: 150px;color: yellow"><b>COPA AMERICA:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>6</td>
+        		<td>4</td>
+        		<td>5</td>
+        		<td>0</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <br>
+       <br>
+       <br>
+       <br>
+        <h4 style="padding-left: 150px;color: yellow"><b>WORLD CUP QUALIFIERS:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>6</td>
+        		<td>2</td>
+        		<td>0</td>
+        		<td>0</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <br>
+       <br>
+       <br>
+       <br>
+       <div class="stats">
+        <center><h3 style="color: red"> <b>FOR FC BARCELONA:</b></h3></center>
+        </div>
+        <h4 style="padding-left: 150px;color: yellow"><b>LA LIGA:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>35</td>
+        		<td>30</td>
+        		<td>9</td>
+        		<td>4</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <h4 style="padding-left: 150px;color: yellow"><b>UEFA CHAMPIONS LEAGUE:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>6</td>
+        		<td>5</td>
+        		<td>0</td>
+        		<td>0</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <h4 style="padding-left: 150px;color: yellow"><b>SUPERCOPA DE ESPANA:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>1</td>
+        		<td>0</td>
+        		<td>0</td>
+        		<td>0</td>
+        		<td>1</td>
+        	</tr>
+        </table>
+       </div>
+       <h4 style="padding-left: 150px;color: yellow"><b>COPA DEL REY:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>5</td>
+        		<td>3</td>
+        		<td>1</td>
+        		<td>0</td>
+        		<td>1</td>
+        	</tr>
+        </table>
+       </div>
+       <br>
+       <br>
+       <br>
+       <br>
+       <div class="bruy">
+  <p style="padding-left: 45px;color:black;font-size: 20px;padding-top: 15px">3. KEVIN DE BRUYNE:</p>
+  </div>
+  <br>
+  <br>
+  <div class="slider2">
+      <span id="slide-111"></span>
+      <span id="slide-222"></span>
+      <span id="slide-333"></span>
+      <div class="image-container2">
+        <img src="./images/kevin1.jpeg" class="slide2" width="500" height="300" />
+        <img src="./images/kevin2.jpg" class="slide2" width="500" height="300" />
+        <img src="./images/kevin3.jpg" class="slide2" width="500" height="300" />
+      </div>
+      <div class="buttons2">
+        <a href="#slide-111"></a>
+        <a href="#slide-222"></a>
+        <a href="#slide-333"></a>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <p style="color: white;padding-left:65px;align-self: center;padding-right: 55px;font-size: 20px ">Kevin De Bruyne is a Belgian professional footballer who plays as a midfielder for Premier League club Manchester City, where he is vice-captain, and the Belgium national team. He is one of just three players (the others being Cristiano Ronaldo and Thierry Henry) to have won the PFA Players' Player of the Year award back to back, and the only midfielder and Belgium player to have done so in English football history. To get a detailed information about Kevin's life click <a href="https://en.wikipedia.org/wiki/Kevin_De_Bruyne">here</a></p>
+
+    <p style="color: orange;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>NATIONALITY: BELGIAN</b>
+    <p style="color: orange;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>CURRENT TEAM: BELGIUM NATIONAL TEAM AND MANCHESTER CITY FC</b></p>	
+    <p style="color: orange;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>AGE: 30</b>
+    <p style="color: orange;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>JERSEY NUMBER: 17</b>
+    <br>
+    <br>
+        <div class="stats">
+        
+
+    	<p style="color:black;align-self: center;font-size: 18px;padding-left: 590px"><b> STATS:</b></p>
+
+
+        </div>
+        <div class="stats">
+        <center><h3 style="color: red"> <b>FOR BELGIUM:</b></h3></center>
+        </div>
+        <h4 style="padding-left: 150px;color: yellow"><b>UEFA EUROS:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>4</td>
+        		<td>1</td>
+        		<td>2</td>
+        		<td>0</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <br>
+       <br>
+       <br>
+       <br>
+        <h4 style="padding-left: 150px;color: yellow"><b>WORLD CUP QUALIFIERS:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>2</td>
+        		<td>1</td>
+        		<td>1</td>
+        		<td>0</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <br>
+       <br>
+       <br>
+       <br>
+       <div class="stats">
+        <center><h3 style="color: red"> <b>FOR MANCHESTER CITY FC:</b></h3></center>
+        </div>
+        <h4 style="padding-left: 150px;color: yellow"><b>PREMIER LEAGUE:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>25</td>
+        		<td>6</td>
+        		<td>12</td>
+        		<td>1</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <h4 style="padding-left: 150px;color: yellow"><b>UEFA CHAMPIONS LEAGUE:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>8</td>
+        		<td>3</td>
+        		<td>2</td>
+        		<td>2</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <h4 style="padding-left: 150px;color: yellow"><b>EFL CUP:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>4</td>
+        		<td>0</td>
+        		<td>1</td>
+        		<td>0</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       
+       <br>
+       <br>
+       <br>
+       <br>
+       <div class="ronaldo">
+  <p style="padding-left: 45px;color:red;font-size: 20px;padding-top: 15px">3. CRISTIANO RONALDO:</p>
+  </div>
+  <br>
+  <br>
+  <div class="slider3">
+      <span id="slide-1111"></span>
+      <span id="slide-2222"></span>
+      <span id="slide-3333"></span>
+      <div class="image-container3">
+        <img src="./images/ronaldo1.jpg" class="slide3" width="500" height="300" />
+        <img src="./images/ronaldo4.jpg" class="slide3" width="500" height="300" />
+        <img src="./images/ronaldo3.jpg" class="slide3" width="500" height="300" />
+      </div>
+      <div class="buttons3">
+        <a href="#slide-1111"></a>
+        <a href="#slide-2222"></a>
+        <a href="#slide-3333"></a>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <p style="color: white;padding-left:65px;align-self: center;padding-right: 55px;font-size: 20px ">Cristiano Ronaldo is a Portuguese professional footballer who plays as a forward for Serie A club Juventus and captains the Portugal national team. Often considered the best player in the world and widely regarded as one of the greatest players of all time, Ronaldo has won five Ballons d'Or[note 3] and four European Golden Shoes, both of which are records for a European player. He has won 32 major trophies in his career, including seven league titles, five UEFA Champions Leagues, one UEFA European Championship, and one UEFA Nations League title. To know more detailed biography about Ronaldo click <a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo">here</a></p>
+
+    <p style="color: pink;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>NATIONALITY: PORTUGUESE</b>
+    <p style="color: pink;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>CURRENT TEAM: PORTUGAL NATIONAL TEAM AND JUVENTUS FC</b></p>	
+    <p style="color: pink;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>AGE: 36</b>
+    <p style="color: pink;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>JERSEY NUMBER: 7</b>
+    <br>
+    <br>
+        <div class="stats">
+        
+
+    	<p style="color:black;align-self: center;font-size: 18px;padding-left: 590px"><b> STATS:</b></p>
+
+
+        </div>
+        <div class="stats">
+        <center><h3 style="color: red"> <b>FOR PORTUGAL:</b></h3></center>
+        </div>
+        <h4 style="padding-left: 150px;color: yellow"><b>UEFA EURO:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>4</td>
+        		<td>5</td>
+        		<td>1</td>
+        		<td>0</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <br>
+       <br>
+       <br>
+       <br>
+        <h4 style="padding-left: 150px;color: yellow"><b>WORLD CUP QUALIFIERS:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>3</td>
+        		<td>1</td>
+        		<td>0</td>
+        		<td>1</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <br>
+       <br>
+       <br>
+       <br>
+       <div class="stats">
+        <center><h3 style="color: red"> <b>FOR JUVENTUS FC:</b></h3></center>
+        </div>
+        <h4 style="padding-left: 150px;color: yellow"><b>SERIE A:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>33</td>
+        		<td>29</td>
+        		<td>3</td>
+        		<td>3</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <h4 style="padding-left: 150px;color: yellow"><b>UEFA CHAMPIONS LEAGUE:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>6</td>
+        		<td>4</td>
+        		<td>1</td>
+        		<td>0</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <h4 style="padding-left: 150px;color: yellow"><b>COPPA ITALIA:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>4</td>
+        		<td>2</td>
+        		<td>1</td>
+        		<td>1</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <h4 style="padding-left: 150px;color: yellow"><b>SUPERCOPPA ITALIANA:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>1</td>
+        		<td>1</td>
+        		<td>0</td>
+        		<td>1</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <br>
+       <br>
+       <br>
+       <br>
+       <div class="romelu">
+  <p style="padding-left: 45px;color:yellow;font-size: 20px;padding-top: 15px">5. ROMELU LUKAKU:</p>
+  </div>
+  <br>
+  <br>
+  <div class="slider4">
+      <span id="slide-11111"></span>
+      <span id="slide-22222"></span>
+      <span id="slide-33333"></span>
+      <div class="image-container4">
+        <img src="./images/lukaku1.jpg" class="slide4" width="500" height="300" />
+        <img src="./images/lukaku2.jpg" class="slide4" width="500" height="300" />
+        <img src="./images/lukaku3.jpg" class="slide4" width="500" height="300" />
+      </div>
+      <div class="buttons4">
+        <a href="#slide-11111"></a>
+        <a href="#slide-22222"></a>
+        <a href="#slide-33333"></a>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <p style="color: white;padding-left:65px;align-self: center;padding-right: 55px;font-size: 20px ">A Belgian international, Lukaku has played 98 games for his country, and scored 64 goals, making him Belgium's all-time top goalscorer.Lukaku made his senior international debut for Belgium in 2010, at age 17, and has since represented his country at four major tournaments, including two FIFA World Cups and two UEFA European Championships. At the 2018 World Cup, Lukaku led Belgium to a third-place finish by finishing as the joint second-highest goalscorer, and won the Bronze Boot. To know more detailed biography about Lukaku click <a href="https://en.wikipedia.org/wiki/Romelu_Lukaku">here</a></p>
+
+    <p style="color: purple;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>NATIONALITY: BELGIAN</b>
+    <p style="color: purple;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>CURRENT TEAM: BELGIUM NATIONAL TEAM AND INTER MILAN FC</b></p>	
+    <p style="color: purple;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>AGE: 28</b>
+    <p style="color: purple;padding-left:150px;align-self: center;padding-right: 55px;font-size: 15px; "><b>JERSEY NUMBER: 9</b>
+    <br>
+    <br>
+        <div class="stats">
+        
+
+    	<p style="color:black;align-self: center;font-size: 18px;padding-left: 590px"><b> STATS:</b></p>
+
+
+        </div>
+        <div class="stats">
+        <center><h3 style="color: red"> <b>FOR BELGIUM:</b></h3></center>
+        </div>
+        <h4 style="padding-left: 150px;color: yellow"><b>UEFA EURO:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>5</td>
+        		<td>4</td>
+        		<td>0</td>
+        		<td>0</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <br>
+       <br>
+       <br>
+       <br>
+        <h4 style="padding-left: 150px;color: yellow"><b>WORLD CUP QUALIFIERS:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>2</td>
+        		<td>2</td>
+        		<td>0</td>
+        		<td>0</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <br>
+       <br>
+       <br>
+       <br>
+       <div class="stats">
+        <center><h3 style="color: red"> <b>FOR INTER MILAN FC:</b></h3></center>
+        </div>
+        <h4 style="padding-left: 150px;color: yellow"><b>SERIE A:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>36</td>
+        		<td>24</td>
+        		<td>11</td>
+        		<td>4</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <h4 style="padding-left: 150px;color: yellow"><b>UEFA CHAMPIONS LEAGUE:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>5</td>
+        		<td>4</td>
+        		<td>1</td>
+        		<td>1</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       <h4 style="padding-left: 150px;color: yellow"><b>COPPA ITALIA:</b></h4>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+        <table style="width: 15%;padding-left: 500px">
+        	<tr>
+        		<th>MATCHES</th>
+        		<th>GOALS</th>
+        		<th>ASSISTS</th>
+        		<th>YELLOW CARDS</th>
+        		<th>RED CARDS</th>
+        	</tr>
+        	<tr>
+        		<td>3</td>
+        		<td>2</td>
+        		<td>2</td>
+        		<td>0</td>
+        		<td>0</td>
+        	</tr>
+        </table>
+       </div>
+       
+       <br>
+       <br>
+       <br>
+       <br>
+
+<center><h5 style="color: green;font-size: 25px"> THESE WERE THE LISTS OF TOP 5 ACTIVE PLAYERS CURRENTLY IN THE WORLD</h5>
+	<br>
+	<br>
+	<br>
+
+	<h6 style="color: yellow;font-size: 15px">HERE ARE SOME INSTAGRAM ACCOUNT LINKS OF THE TOP 5 PLAYERS:</h6>
+    <br>
+    <br>
+    <br>
+    <center><h7 style="padding-left: 20px;color: red">LEWANDOWSKI:<a href="https://www.instagram.com/_rl9/">Click here</a></h7></center>
+    <br>
+    <center><h8 style="padding-left: 20px;color: blue">MESSI:<a href="https://www.instagram.com/leomessi/">Click here</a></h8></center>
+    	<br>
+    <center><h9 style="padding-left: 20px;color: orange">KEVIN DE BRUYNE:<a href="https://www.instagram.com/kevindebruyne/">Click here</a></h9></center>
+    <br>
+    <center><h10 style="padding-left: 20px;color: pink">CRISTIANO RONALDO:<a href="https://www.instagram.com/cristiano/">Click here</a></h10></center>
+    <br>
+    
+    <center><h11 style="padding-left: 20px;color: purple">ROMELU LUKAKU:<a href="https://www.instagram.com/romelulukaku/"></a>Click here</center>
+
+    	<br>
+    	<br>
+    	<br>
+    	<h12 style="padding-left: 20px;color: yellow"><b>Some Football videos to end ..Thank you</b></h12>
+    	<br>
+    	<br>
+    	<br>
+    	<br>
+    	<br>
+
+    	<iframe width="560" height="315" src="https://www.youtube.com/embed/5-Pp51nnkI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+
+
+       
+        
+
+
+
+
+</body>
+</html>

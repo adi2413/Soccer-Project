@@ -7,7 +7,7 @@ This project was made by me during the 7 days of Web Development hosted by HACK-
 -------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------
-Site deployed on Netlify : [Click Here To Open Site]()
+Site deployed on Netlify : [Click Here To Open Site](https://scoccer-blog-by-adi.netlify.app/)
 -------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------
